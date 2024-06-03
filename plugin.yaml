@@ -1,0 +1,22 @@
+plugin:
+    name: 'studiodevs.gwent::lang.plugin.name'
+    description: 'studiodevs.gwent::lang.plugin.description'
+    author: StudioDEVS
+    icon: icon-sun-o
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Gwent
+        url: studiodevs/gwent/contracts
+        icon: icon-sun-o
+        permissions:
+            - manage_movies
+        sideMenu:
+            side-menu-item:
+                label: 'studiodevs.gwent::lang.navigation.contracts'
+                url: studiodevs/gwent/contracts
+                icon: icon-tag
+        #     side-menu-item2:
+        #         label: Actors
+        #         url: watchlearn/movies/actors
+        #         icon: icon-user

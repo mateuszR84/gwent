@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Contract
+
+# Model Form Field configuration
+form: $/studiodevs/gwent/models/contract/fields.yaml
+
+# Model Class name
+modelClass: StudioDevs\Gwent\Models\Contract
+
+# Default redirect location
+defaultRedirect: studiodevs/gwent/contracts
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: studiodevs/gwent/contracts/update/:id
+    redirectClose: studiodevs/gwent/contracts
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: studiodevs/gwent/contracts
+    redirectClose: studiodevs/gwent/contracts
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

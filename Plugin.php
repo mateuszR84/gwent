@@ -65,22 +65,4 @@ class Plugin extends PluginBase
             ],
         ];
     }
-
-    /**
-     * registerNavigation used by the backend.
-     */
-    public function registerNavigation()
-    {
-        return []; // Remove this line to activate
-
-        return [
-            'gwent' => [
-                'label' => 'Gwent',
-                'url' => Backend::url('studiodevs/gwent/mycontroller'),
-                'icon' => 'icon-leaf',
-                'permissions' => ['studiodevs.gwent.*'],
-                'order' => 500,
-            ],
-        ];
-    }
 }

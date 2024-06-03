@@ -1,0 +1,23 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    fraction:
+        label: 'studiodevs.gwent::lang.models.contract.fraction'
+        type: dropdown
+        span: left
+        default: nilfgaard
+    contract:
+        label: 'studiodevs.gwent::lang.models.contract.contract'
+        type: dropdown
+        span: right
+        dependsOn: fraction
+    counter:
+        label: 'studiodevs.gwent::lang.models.contract.counter'
+        type: number
+        span: left
+    image:
+        label: 'studiodevs.gwent::lang.models.contract.image'
+        type: fileupload
+        span: right
